@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM docker.io/library/alpine:latest
 
 COPY . /usr/share/nginx/html
 
